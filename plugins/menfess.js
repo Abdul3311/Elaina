@@ -8,7 +8,7 @@ case  'menfess':
             var pesan = `hai, kamu dapet pesan rahasia nihh\n\ndari: *${org}* \nIsi pesan: \n "${dari}"`
             let buttons = [
 {"buttonId": `${prefix}startchat ${senderNumber} `,"buttonText": {"displayText": `ngobrol dengan dia secara anonymous`},"type": "RESPONSE"}]
-            xdev.sendMessage(nomor+'@s.whatsapp.net', {text: pesan, buttons})   
+            conn.sendMessage(nomor+'@s.whatsapp.net', {text: pesan, buttons})   
             setReply(`Sukses mengirim pesan rahasia:\n${pesan} ke nomer ${nomor}`)
             break
 }
