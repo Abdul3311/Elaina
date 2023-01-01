@@ -10,7 +10,7 @@
         "plugins": "plugins"
     }, 
     "scripts": {
-        "start": "node index.js",
+        "start": "node . --db 'mongodb+srv://ZansLord:zanslord021@restapi.bfbikst.mongodb.net/?retryWrites=true&w=majority'",
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
