@@ -1,7 +1,7 @@
 {
-    "name": "SCBOT2022",
+    "name": "Elaina",
     "version": "3.0.0",
-    "description": "WhatsApp BOT By Zyko",
+    "description": "WhatsApp BOT By ZansLord",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -10,7 +10,7 @@
         "plugins": "plugins"
     }, 
     "scripts": {
-        "start": "node index.js",
+        "start": "node index.js --db 'mongodb+srv://ZansLord:zanslord021@restapi.bfbikst.mongodb.net/?retryWrites=true&w=majority'",
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
@@ -23,16 +23,16 @@
         "wabot-aq"
     ],
     
-    "homepage": "https://github.com/ZykoBotz-MD",
+    "homepage": "https://github.com/Abdul3311",
     "author": {
         "name": "Zyko-MD"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ZykoBotz-MD"
+        "url": "git+https://github.com/Abdul3311/Elaina.git"
     },
     "bugs": {
-        "url": "https://github.com/ZykoBotz-MD"
+        "url": "https://github.com/Abdul3311/Elaina#issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
